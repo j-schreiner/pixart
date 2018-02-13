@@ -4,3 +4,10 @@
   width: 500px;
   background-color: mistyrose;
 }
+
+.square {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}

@@ -12,3 +12,17 @@ $('.color-choice').keypress(function(event){
   }
 })
 
+
+
+for (var i = 0; i <= 100; i++){
+
+  var newSquareDiv = $('<div>', {
+  "class": "square",
+  click: function(event){
+    event.css("background-color", "green" )
+    }
+  })
+
+  $('body').append(newSquareDiv)
+
+}
