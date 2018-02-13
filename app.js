@@ -1,10 +1,14 @@
-$('.set-color').on('click', function(event){
+$('.color-choice').keypress(function(event){
 
-  $colorChoice = $('.color-choice').val()
+  var keycode = event.keyCode || event.which
 
-  $('.brush').css("background-color", $colorChoice )
+  if(keycode == '13') {
 
-  event.preventDefault()
+    $colorChoice = $('.color-choice').val()
 
+    $('.brush').css("background-color", $colorChoice )
+
+    event.preventDefault()
+  }
 })
 
