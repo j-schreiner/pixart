@@ -6,8 +6,9 @@
 }
 
 .square {
-  border: 1px solid black;
+  background-size: cover;
   width: 20px;
   height: 20px;
+  border: 1px solid black;
   display: inline-block;
 }
